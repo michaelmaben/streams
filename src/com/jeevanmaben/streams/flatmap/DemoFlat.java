@@ -17,8 +17,6 @@ public class DemoFlat {
                 .collect(Collectors.toSet());
         System.out.println("List of unique words in books::");
         words.stream().sorted().forEach(System.out::println);
-        System.out.println("List of unique words in books::");
-        words.stream().sorted().forEach(System.out::println);
 
         //using map
         Arrays.asList(b1, b2)
